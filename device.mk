@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+    
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
@@ -57,3 +61,4 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/redwood/redwood-vendor.mk)
+
