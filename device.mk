@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths_yupikidp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/sound_trigger_mixer_paths_yupikidp.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/sound_trigger_platform_info.xml
 
+# Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.rc
+
 # WiFi Display
 PRODUCT_SYSTEM_PROPERTIES += \
     vendor.sys.video.disable.ubwc=1
