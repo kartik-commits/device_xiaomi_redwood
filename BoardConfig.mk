@@ -17,6 +17,10 @@ include device/xiaomi/sm7325-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := redwood
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_redwood
+TARGET_RECOVERY_DEVICE_MODULES := libinit_redwood
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/redwood-fragment.config
 
