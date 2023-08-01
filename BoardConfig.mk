@@ -18,8 +18,6 @@ TARGET_KERNEL_CONFIG += vendor/redwood-fragment.config
 # Kernel modules
 BOOT_KERNEL_MODULES := \
     goodix_core.ko \
-    hwid.ko \
-    msm_drm.ko \
     xiaomi_touch.ko
 
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
