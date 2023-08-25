@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "AICP/device_xiaomi_sm7325-common",
+    "target_path": "device/xiaomi/sm7325-common"
+  },
+  {
+    "repository": "kartik-commits/vendor_xiaomi_redwood-firmware",
+    "target_path": "vendor/xiaomi/redwood-firmware"
+  },
+  {
+    "repository": "kartik-commits/vendor_xiaomi_redwood",
+    "target_path": "vendor/xiaomi/redwood"
+  }
+]
