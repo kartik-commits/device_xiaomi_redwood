@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_redwood.mk
+    $(LOCAL_DIR)/halcyon_redwood.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_redwood-user \
-    aosp_redwood-userdebug \
-    aosp_redwood-eng
+    halcyon_redwood-user \
+    halcyon_redwood-userdebug \
+    halcyon_redwood-eng
