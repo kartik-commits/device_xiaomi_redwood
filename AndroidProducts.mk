@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_redwood.mk
+    $(LOCAL_DIR)/ancient_redwood.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_redwood-user \
-    colt_redwood-userdebug \
-    colt_redwood-eng
+    ancient_redwood-user \
+    ancient_redwood-userdebug \
+    ancient_redwood-eng
