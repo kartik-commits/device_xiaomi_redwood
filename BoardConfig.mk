@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/redwood
 # Ancient Official
 ANCIENT_OFFICIAL=true
 
+# Include GApps
+ANCIENT_GAPPS=true
+
 # Ignore overriding commands errors
 BUILD_BROKEN_DUP_RULES := true
 
