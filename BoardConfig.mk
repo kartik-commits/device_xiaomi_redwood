@@ -12,6 +12,9 @@ ANCIENT_OFFICIAL=true
 # Include GApps
 ANCIENT_GAPPS=true
 
+# Skip ABI Checks
+SKIP_ABI_CHECKS=true
+
 # Ignore overriding commands errors
 BUILD_BROKEN_DUP_RULES := true
 
