@@ -26,5 +26,8 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Include proprietary files
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
