@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 #Gapps
 TARGET_INCLUDE_STOCK_ARCORE := true
@@ -31,7 +31,7 @@ PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Poco X5 Pro 5G
-PRODUCT_NAME := aosp_redwood
+PRODUCT_NAME := custom_redwood
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
