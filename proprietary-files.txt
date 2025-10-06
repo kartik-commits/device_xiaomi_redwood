@@ -73,21 +73,14 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio Hardware
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib/libbatterylistener.so
-vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libssrec.so
 vendor/lib/libvideoNS.so
 
 # Audio firmware
@@ -232,7 +225,6 @@ vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/lib3rdpartcontext.so
 vendor/lib64/libAF.so
 vendor/lib64/libI420colorconvert.so
-vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libXMFaceFocus.so
 vendor/lib64/libadreno_app_profiles.so
@@ -254,9 +246,6 @@ vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamlog.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2svarnn.so
-vendor/lib64/libcapiv2vop.so
 vendor/lib64/libceres.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
