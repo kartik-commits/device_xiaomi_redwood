@@ -100,7 +100,6 @@ vendor/etc/charger_fw_fstab.qti
 vendor/etc/camera/3rdpartconfigure.txt
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
-vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libvideoutils.so
 vendor/lib64/camera/com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom.so
@@ -464,14 +463,6 @@ vendor/lib/libmmcamera_mfnr_t4.so
 vendor/lib/libmmcamera_pdpc.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
-vendor/lib64/libmmcamera_bestats.so
-vendor/lib64/libmmcamera_cac3.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib64/libmmcamera_lscv35.so
-vendor/lib64/libmmcamera_mfnr.so
-vendor/lib64/libmmcamera_mfnr_t4.so
-vendor/lib64/libmmcamera_pdpc.so
 
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
