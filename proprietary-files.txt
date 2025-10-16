@@ -100,6 +100,11 @@ vendor/etc/charger_fw_fstab.qti
 vendor/etc/camera/3rdpartconfigure.txt
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
+vendor/lib/lib3rdpartcontext.so
+vendor/lib/libbitmlenginev2.so
+vendor/lib/libcamera_nn_stub.so
+vendor/lib/libofflinelog.so
+vendor/lib/libopencv.so
 vendor/lib/libvideoutils.so
 vendor/lib64/camera/com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom.so
